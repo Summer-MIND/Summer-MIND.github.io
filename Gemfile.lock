@@ -29,8 +29,6 @@ GEM
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
     mercenary (0.3.6)
-    minima (2.1.0)
-      jekyll (~> 3.3)
     pathutil (0.14.0)
       forwardable-extended (~> 2.6)
     public_suffix (2.0.5)
@@ -40,6 +38,7 @@ GEM
     rouge (1.11.1)
     safe_yaml (1.0.4)
     sass (3.4.23)
+    spectral (0.0.0)
     thread_safe (0.3.5)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
@@ -52,7 +51,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll (= 3.4.0)
   jekyll-feed (~> 0.6)
-  minima (~> 2.0)
+  spectral
   tzinfo-data
 
 RUBY VERSION
