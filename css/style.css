@@ -381,11 +381,11 @@
 		}
 
 		.icon.logo {
-			opacity: 0.9;
+			opacity: 0.5;
 			text-align: center;
 			text-decoration: none !important;
 			display: inline;
-			height: 400px;
+			height: 250px;
 			width: auto;
 		}
 		.icon.logo.a {
