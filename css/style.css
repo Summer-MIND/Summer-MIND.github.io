@@ -82,6 +82,15 @@
 		letter-spacing: 0.025em;
 	}
 
+	h3.affiliation {
+		margin-bottom: none;
+	}
+
+	h4.affiliation {
+		margin-top: -2em !important;
+		font-weight: 50;
+		font-size: .8em;
+	}
 	sub {
 		font-size: 0.8em;
 		position: relative;
@@ -259,6 +268,11 @@
 		.image.fit:before {
 			background: url("images/overlay.png");
 			}
+
+		.image.fit-apply {
+			display: block;
+
+		}
 
 		.image.fit {
 			display: block;
