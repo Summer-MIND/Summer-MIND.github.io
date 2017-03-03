@@ -274,11 +274,17 @@
 			margin: 0 0 2em 0;
 		}
 
-			.image.featured img {
-				height: 300px;
+		.image.featured img {
+			height: 300px;
+				width: auto;
+			display: inline;
+		}
+
+		.image.funding img {
+				height: 125px;
  				width: auto;
 				display: inline;
-			}
+		}
 
 /* Icon */
 
@@ -474,6 +480,16 @@
 			ul.buttons.vertical li:first-child {
 				padding: 0;
 			}
+	ul.funding {
+		cursor: default;
+	}
+
+	ul.funding li {
+			display: inline-block;
+			padding: 0 0 0 1.5em;
+			vertical-align: middle;
+			font-size: 40px;
+	}
 
 /* Table */
 
