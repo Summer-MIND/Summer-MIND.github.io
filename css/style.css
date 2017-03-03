@@ -371,24 +371,24 @@
 			text-align: center;
 		}
 
-			.icon.featured:before {
-				font-size: 5em;
-				line-height: 1em;
-			}
+		.icon.featured:before {
+			font-size: 5em;
+			line-height: 1em;
+		}
 
 		.icon > .label {
 			display: none;
 		}
 
-		.icon.logo{
+		.icon.logo {
 			opacity: 0.9;
 			text-align: center;
 			text-decoration: none !important;
 			display: inline;
-			height: .5em;
-			width: 50%;
+			height: 400px;
+			width: auto;
 		}
-		.icon.logo.a{
+		.icon.logo.a {
 			text-decoration: none !important;
 		}
 
