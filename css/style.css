@@ -341,6 +341,11 @@
 				top: -0.2em;
 			}
 
+			.icon.circle.fa-envelope-o {
+			    background: #00693e;
+			    color: white;
+			}
+
 			.icon.circle.fa-twitter {
 				background: #70aecd;
 				color: white;
