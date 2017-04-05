@@ -91,6 +91,14 @@
 		font-weight: 50;
 		font-size: .8em;
 	}
+
+	h4.topic {
+		margin-top: 0em;
+		font-weight: 50;
+		font-size: .8em;
+		font-style: oblique; /* doesn't work */
+	}
+
 	sub {
 		font-size: 0.8em;
 		position: relative;
