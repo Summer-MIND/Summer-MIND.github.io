@@ -311,6 +311,12 @@
 				display: inline;
 		}
 
+		.image.funding.small img {
+				height: 50px;
+ 				width: auto;
+				display: inline;
+		}
+
 /* Icon */
 
 	.icon {
