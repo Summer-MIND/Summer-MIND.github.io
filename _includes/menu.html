@@ -1,0 +1,14 @@
+<nav id="menu">
+	<h2>Menu</h2>
+
+	<ul>
+		<li><a href="{{ site.baseurl }}/index.html">Home</a></li>
+		{% for page in site.pages %}
+			{% unless page.exclude %}
+				{% if page.title %}
+					<li><a href="{{ page.url | prepend: site.baseurl}}">{{ page.title }}</a></li>
+				{% endif %}
+			{% endunless %}
+		{% endfor %}
+	</ul>
+</nav>

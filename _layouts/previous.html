@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body>
+
+  {% include header.html %}
+
+  <h1>{{ page.title }}</h1>
+
+  <!-- {% if previous.group-image %}
+    <div class="image main"><img src="{{ site.baseurl }}/images/{previous.year}/{{ previous.group-image }}" alt="" /></div>
+    <!-- <div class="image main"><img src="{{ site.baseurl }}/images/{{ previous.year }}/{{ previous.group-image }}" alt="" /></div> -->
+  {% endif %} -->
+
+
+  {{ content }}
+
+  <section>
+    <div class="table-wrapper">
+      <table>
+      <thead>
+        <tr>
+          <th>Title</th>
+          <th>Presenter</th>
+          <th>Video</th>
+          <th>Slides</th>
+          <th>Code</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        {% for tutorial in site.data.previous %}
+          {% if tutorial.Year contains page.year %}
+            <tr>
+              <td>{{tutorial.Title}}</td>
+              <td><a href = "{{ tutorial.PresenterWebsite }}">{{ tutorial.Presenter }}</a></td>
+              <td>{{tutorial.Video}}</td>
+              <td>{{tutorial.Slides}}</td>
+              <td>{{tutorial.Code}}</td>
+            </tr>
+          <!-- {% endif %} -->
+        {% endfor %}
+      </tbody>
+
+      </table>
+    </div>
+  </section>
+
+  {% include footer.html %}
+
+</body>
+</html>
