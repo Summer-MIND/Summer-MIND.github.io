@@ -17,36 +17,7 @@
 
   {{ content }}
 
-  <section>
-    <div class="table-wrapper">
-      <table>
-      <thead>
-        <tr>
-          <th>Title</th>
-          <th>Presenter</th>
-          <th>Video</th>
-          <th>Slides</th>
-          <th>Code</th>
-        </tr>
-      </thead>
-
-      <tbody>
-        {% for tutorial in site.data.previous %}
-          {% if tutorial.Year contains page.year %}
-            <tr>
-              <td>{{tutorial.Title}}</td>
-              <td><a href = "{{ tutorial.PresenterWebsite }}">{{ tutorial.Presenter }}</a></td>
-              <td>{{tutorial.Video}}</td>
-              <td>{{tutorial.Slides}}</td>
-              <td>{{tutorial.Code}}</td>
-            </tr>
-          <!-- {% endif %} -->
-        {% endfor %}
-      </tbody>
-
-      </table>
-    </div>
-  </section>
+  {% include tutorials.html %}
 
   {% include footer.html %}
 

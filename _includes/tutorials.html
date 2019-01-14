@@ -1,0 +1,38 @@
+<section>
+  <h2>Tutorials</h2>
+  {% for tutorial in site.data.previous %}
+    {% if tutorial.Year contains page.year %}
+      <figure class='style2'>
+        {% if tutorial.Image %}
+          <img src="{{site.baseurl}}/images/tutorials/{{tutorial.Image}}" alt="{{speaker.Name}}" height="150">
+        {% else %}
+          <img src="{{site.baseurl}}/images/Logos/MIND_BW_Square.png" alt="" height="150">
+        {% endif %}
+
+        <figcaption>
+          {% if tutorial.Title %}
+            <h3>{{ tutorial.Title }}</h3>
+            <!-- {% if tutorial.Presenter %}
+              <p><a href = "{{ tutorial.PresenterWebsite }}">{{ tutorial.Presenter }}</a></p>
+            {% endif %} -->
+          {% endif %}
+          <ul class="icons">
+            {% if tutorial.Video %}
+              <li><a href="{{ tutorial.Video }}" class="icon style2 fa-youtube"><span class="label">Video</span></a></li>
+            {% endif %}
+            {% if tutorial.Slides %}
+              <li><a href="{{ tutorial.Slides }}" class="icon style2 fa-slideshare"><span class="label">Slides</span></a></li>
+            {% endif %}
+            {% if tutorial.Code %}
+              <li><a href="{{ tutorial.Code }}" class="icon style2 fa-github"><span class="label">Code</span></a></li>
+            {% endif %}
+            {% if tutorial.Data %}
+              <li><a href="{{ tutorial.Data }}" class="icon style2 fa-database"><span class="label">Data</span></a></li>
+            {% endif %}
+          </ul>
+        </figcaption>
+      </figure>
+
+    {% endif %}
+  {% endfor %}
+</section>
