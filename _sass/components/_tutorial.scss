@@ -1,0 +1,104 @@
+
+/* Tutorial */
+
+$border-color:  #585858;
+$text-box-color: #B8B8B8;
+$accent-color: #ff0000;
+
+
+
+div.tutorial {
+			display: inline-block;
+			// flex-direction: row;
+		  border-radius: 20px;
+		  padding: 0px;
+			// height:200px;
+			border: 2px solid $border-color;
+			margin: 5px;
+			max-width: 400px;
+			// height: 300px;
+			// position: relative;
+			// min-height: 400px;
+			// background: linear-gradient(to top, lightgrey 50%, transparent 50%);
+		}
+
+div.tutorial-image {
+				display: block;
+				padding: 10px;
+				border-top-left-radius: 20px;
+				border-top-right-radius: 20px;
+				vertical-align: top;
+			}
+
+div.tutorial-text {
+		display: block;
+		padding: 10px;
+		// max-height: 400px;
+		background-color: $text-box-color;
+		border-bottom-left-radius: 20px;
+		border-bottom-right-radius: 20px;
+		vertical-align: bottom;
+		position: relative;
+	  // bottom: 0;
+	  // left: 0;
+	}
+
+img.tutorial-image {
+	  display: block;
+	  margin-left: auto;
+	  margin-right: auto;
+			}
+
+.tutorial-title {
+		text-align: center;
+		text-decoration: none;
+		text-transform: uppercase;
+		word-spacing: 2px;
+		letter-spacing: 1px;
+		line-height: 1;
+		font-size: 24px;
+		font-weight: 600;
+		margin: 5px;
+	}
+
+.tutorial-author {
+		text-align: center;
+		text-decoration: none;
+		text-transform: capitalize;
+		word-spacing: 2px;
+		letter-spacing: 1px;
+		line-height: 1;
+		font-size: 16px;
+		font-weight: 300;
+	}
+
+.icon-container {
+		text-align: center;
+
+		div {
+				// width: 30px; /* Declare your value. Can be in relative units. */
+				display: inline-block;
+				vertical-align: bottom;
+				margin-top: 0px;
+				margin-left: 10px;
+				margin-right: 10px;
+				// height: 50px;
+				}
+		span {
+				font-size: 28px;
+				}
+	}
+
+.icon-container > img {
+			width: 30px; /* Declare your value. Can be in relative units. */
+			display: inline-block;
+			vertical-align: bottom;
+			margin-top: 0px;
+			margin-left: 10px;
+			margin-right: 10px;
+		}
+.icon-container:after {
+  content: "";
+  width: 100%;
+  display: inline-block;
+	}

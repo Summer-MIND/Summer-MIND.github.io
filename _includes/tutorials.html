@@ -2,37 +2,53 @@
   <h2>Tutorials</h2>
   {% for tutorial in site.data.previous %}
     {% if tutorial.Year contains page.year %}
-      <figure class='style2'>
-        {% if tutorial.Image %}
-          <img src="{{site.baseurl}}/images/tutorials/{{tutorial.Image}}" alt="{{speaker.Name}}" height="150">
-        {% else %}
-          <img src="{{site.baseurl}}/images/Logos/MIND_BW_Square.png" alt="" height="150">
-        {% endif %}
+      <div class="tutorial">
 
-        <figcaption>
-          {% if tutorial.Title %}
-            <h3>{{ tutorial.Title }}</h3>
-            <!-- {% if tutorial.Presenter %}
-              <p><a href = "{{ tutorial.PresenterWebsite }}">{{ tutorial.Presenter }}</a></p>
-            {% endif %} -->
-          {% endif %}
-          <ul class="icons">
-            {% if tutorial.Video %}
-              <li><a href="{{ tutorial.Video }}" class="icon style2 fa-youtube"><span class="label">Video</span></a></li>
+          <div class='tutorial-image'>
+            {% if tutorial.Image %}
+              {% if tutorial.Video %}
+                <a href="{{ tutorial.Video }}"><img src="{{site.baseurl}}/images/tutorials/{{tutorial.Image}}" alt="{{speaker.Name}}" height="150" class="tutorial-image"></a>
+              {% else%}
+                <img src="{{site.baseurl}}/images/tutorials/{{tutorial.Image}}" alt="{{speaker.Name}}" height="150" class="tutorial-image">
+              {% endif %}
+            {% else %}
+              {% if tutorial.Video %}
+                <a href="{{ tutorial.Video }}"><img src="{{site.baseurl}}/images/Logos/MIND_BW_Square.png" alt="" height="150" class="tutorial-image"></a>
+              {% else%}
+                <img src="{{site.baseurl}}/images/Logos/MIND_BW_Square.png" alt="" height="150" class="tutorial-image">
+              {% endif %}
             {% endif %}
-            {% if tutorial.Slides %}
-              <li><a href="{{ tutorial.Slides }}" class="icon style2 fa-slideshare"><span class="label">Slides</span></a></li>
-            {% endif %}
-            {% if tutorial.Code %}
-              <li><a href="{{ tutorial.Code }}" class="icon style2 fa-github"><span class="label">Code</span></a></li>
-            {% endif %}
-            {% if tutorial.Data %}
-              <li><a href="{{ tutorial.Data }}" class="icon style2 fa-database"><span class="label">Data</span></a></li>
-            {% endif %}
-          </ul>
-        </figcaption>
-      </figure>
+          </div>
 
+          <div class="tutorial-text">
+
+            {% if tutorial.Title %}
+              <h3 class="tutorial-title">{{ tutorial.Title }}</h3>
+            {% endif %}
+
+            {% if tutorial.Presenter %}
+              <h4 class="tutorial-author">by: <a href = "{{ tutorial.PresenterWebsite }}" class="tutorial-link">{{ tutorial.Presenter }}</a></h4>
+            {% endif %}
+
+            <div class="icon-container">
+                {% if tutorial.Video %}
+                    <div><a href="{{ tutorial.Video }}" class="icon"><span class="icon-play2"></span></a></div>
+                {% endif %}
+
+                {% if tutorial.Slides %}
+                  <div><a href="{{ tutorial.Slides }}" class="icon"><span class="icon-file-pdf"></span></a></div>
+                {% endif %}
+
+                {% if tutorial.Code %}
+                  <div><a href="{{ tutorial.Code }}" class="icon"><span class="icon-github"></span></a></div>
+                {% endif %}
+
+                {% if tutorial.Data %}
+                  <div><a href="{{ tutorial.Data }}" class="icon"><span class="icon-database"></span></a></div>
+                {% endif %}
+            </div>
+          </div>
+      </div>
     {% endif %}
   {% endfor %}
 </section>
