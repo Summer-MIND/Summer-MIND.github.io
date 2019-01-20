@@ -1,17 +1,32 @@
-ID,First,Last,Institution,Website,Picture
-1,Luke,Chang,Dartmouth College,http://cosanlab.com,chang.jpg
-2,Janice,Chen,Johns Hopkins University,http://jchenlab.johnshopkins.edu/,chen.jpg
-3,Michale,Fee,Massachusetts Institute of Technology,http://web.mit.edu/feelab/,fee.jpg
-4,Yaroslav,Halchenko,Dartmouth College,http://centerforopenneuroscience.org/,halchenko.jpg
-5,James,Haxby,Dartmouth College,http://haxbylab.dartmouth.edu/,haxby.jpg
-6,Christopher,Honey,Johns Hopkins University,https://www.honeylab.org/,honey.jpg
-7,Alex,Huth,University of Texas Austin,http://www.cs.utexas.edu/~huth/index.html,huth.png
-8,Caleb,Kemere,Rice University,http://rnel.rice.edu,kemere.png
-9,Jeremy,Manning,Dartmouth College,http://www.context-lab.com/,manning.png
-10,Ida,Momennejad,Princeton University,https://www.momen-nejad.org/,momennejad.jpg
-11,Emily,Mower-Provost,University of Michigan,http://web.eecs.umich.edu/~emilykmp/chai/,mowerprovost.png
-12,Carolyn,Parkinson,University of California Los Angeles,http://csnlab.org,parkinson.jpg
-13,Alireza,Soltani,Dartmouth College,http://sites.dartmouth.edu/ccnl,soltani.jpeg
-14,Mark,Thornton,Princeton University,http://markallenthornton.com/,thornton.jpg
-15,Matthijs,van der Meer,Dartmouth College,http://www.vandermeerlab.org/,mvdm.jpg
-16,Thalia,Wheatley,Dartmouth College,http://www.wheatlab.com/,wheatley.jpg
+ID,Year,First,Last,Institution,Website,Picture
+1,2017,Chris,Baldassano,Columbia University,http://www.dpmlab.org/,baldassano.jpg
+2,2017,Christopher,Chang,Dartmouth College,http://cosanlab.com,chang.jpg
+3,2017,Janice,Chen,Johns Hopkins University,http://jchenlab.johnshopkins.edu/,chen.jpg
+4,2017,Sam,Gershman,Harvard University,http://gershmanlab.webfactional.com/,gershman.jpg
+5,2017,Caterina,Gratton,Northwestern University,https://www.grattonlab.org/,gratton.jpg
+6,2017,Howard,Eichenbaum,Boston University,https://www.bu.edu/psych/faculty/hbe/,eichenbaum.jpg
+7,2017,Yaroslav,Halchenko,Dartmouth College,http://centerforopenneuroscience.org/,halchenko.jpg
+8,2017,James,Haxby,Dartmouth College,http://haxbylab.dartmouth.edu/,haxby.jpg
+9,2017,Christopher,Honey,Johns Hopkins University,https://www.honeylab.org/,honey.jpg
+10,2017,Caleb,Kemere,Rice University,http://rnel.rice.edu,kemere.png
+11,2017,Jeremy,Manning,Dartmouth College,http://www.context-lab.com/,manning.png
+12,2017,Ida,Momennejad,Princeton University,https://www.momen-nejad.org/,momennejad.jpg
+13,2017,Alireza,Soltani,Dartmouth College,http://sites.dartmouth.edu/ccnl,soltani.jpeg
+14,2017,Matthijs,van der Meer,Dartmouth College,http://www.vandermeerlab.org/,mvdm.jpg
+15,2017,Thalia,Wheatley,Dartmouth College,http://www.wheatlab.com/,wheatley.jpg
+16,2018,Luke,Chang,Dartmouth College,http://cosanlab.com,chang.jpg
+17,2018,Janice,Chen,Johns Hopkins University,http://jchenlab.johnshopkins.edu/,chen.jpg
+18,2018,Michale,Fee,Massachusetts Institute of Technology,http://web.mit.edu/feelab/,fee.jpg
+19,2018,Yaroslav,Halchenko,Dartmouth College,http://centerforopenneuroscience.org/,halchenko.jpg
+20,2018,James,Haxby,Dartmouth College,http://haxbylab.dartmouth.edu/,haxby.jpg
+21,2018,Christopher,Honey,Johns Hopkins University,https://www.honeylab.org/,honey.jpg
+22,2018,Alex,Huth,University of Texas Austin,http://www.cs.utexas.edu/~huth/index.html,huth.png
+23,2018,Caleb,Kemere,Rice University,http://rnel.rice.edu,kemere.png
+24,2018,Jeremy,Manning,Dartmouth College,http://www.context-lab.com/,manning.png
+25,2018,Ida,Momennejad,Princeton University,https://www.momen-nejad.org/,momennejad.jpg
+26,2018,Emily,Mower-Provost,University of Michigan,http://web.eecs.umich.edu/~emilykmp/chai/,mowerprovost.png
+27,2018,Carolyn,Parkinson,University of California Los Angeles,http://csnlab.org,parkinson.jpg
+28,2018,Alireza,Soltani,Dartmouth College,http://sites.dartmouth.edu/ccnl,soltani.jpeg
+29,2018,Mark,Thornton,Princeton University,http://markallenthornton.com/,thornton.jpg
+30,2018,Matthijs,van der Meer,Dartmouth College,http://www.vandermeerlab.org/,mvdm.jpg
+31,2018,Thalia,Wheatley,Dartmouth College,http://www.wheatlab.com/,wheatley.jpg

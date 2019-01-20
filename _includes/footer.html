@@ -26,15 +26,12 @@
 		<section>
 			<h2>MIND is generously supported by:</h2>
 			<div class='icon-container'>
-				<!-- <ul> -->
 				<div>
 				{% for funder in site.data.funding %}
 					{% if funder.Logo %}
 						<a href="{{ funder.Website }}"><img src="{{ site.siteurl }}/images/Logos/{{ funder.Logo }}" alt="{{ funder.Name }}" height=75></a>
-						<!-- <li><a href="{{ funder.Website }}"><img src="{{ site.siteurl }}/images/Logos/{{ funder.Logo }}" alt="{{ funder.Name }}" height=50></a></li> -->
 					{% else %}
 						<a href="{{ funder.Website }}"><span style="height:30px;">{{ funder.Name }}</span></a>
-						<!-- <li><a href="{{ funder.Website }}"><span>{{ funder.Name }}</span></a></li> -->
 					{% endif %}
 				{% endfor %}
 				</div>
