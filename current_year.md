@@ -1,6 +1,6 @@
 ---
 layout: current
-title: Cognitive Cartography
+title: Cognitive Maps
 ---
 
 This year's MIND summer school will be on **{{page.title}}**.
