@@ -27,6 +27,27 @@ This year’s summer program will be 9 days, with each day organized around thre
   </div>
 </section>
 
+<!-- Using Cards -->
+<section>
+  <h2>Organizing Committee</h2>
+  <div class="container">
+    <div class="row">
+      {% for organizer in site.data.organizers %}
+        <div class="col s12 m6 l3">
+          <div class="card medium">
+            <div id="faculty" class="card-image">
+              <img src="{{site.url}}/images/Faculty/{{organizer.Picture}}">
+            </div>
+            <div class="card-content">
+              <span class="card-title center"><a href="{{organizer.Website}}">{{organizer.First}} {{organizer.Last}}</a></span>
+              <p class="center">{{organizer.Institution}}</p>
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
 
 ## Advisory Board
 <section>

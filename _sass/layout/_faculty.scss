@@ -1,0 +1,24 @@
+/* Faculty */
+
+// #faculty {
+// 			.card-image {
+// 			    // height: 400px;
+// 			    overflow: hidden;
+// 			}
+// }
+
+.card-image {
+    height: 300px;
+    overflow: hidden;
+		padding: 10px;
+}
+
+.card img {
+		// padding: 10px;
+    // max-height: 300px;
+    object-fit: cover;
+}
+.card img.materialized.active {
+    max-height: none;
+    object-fit: none;
+}

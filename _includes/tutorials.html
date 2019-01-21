@@ -65,9 +65,9 @@
               <div class="card-image">
                 <img src="{{site.url}}/images/tutorials/{{tutorial.Image}}">
               </div>
-              <div class="card-content">
+              <div class="card-content  grey lighten-1">
                 {% if tutorial.Title %}
-                  <span class="card-title">{{ tutorial.Title }}</span>
+                  <span class="card-title center-align">{{ tutorial.Title }}</span>
                 {% endif %}
                 {% if tutorial.Presenter %}
                   <h4 class="tutorial-author">by: <a href = "{{ tutorial.PresenterWebsite }}" class="tutorial-link">{{ tutorial.Presenter }}</a></h4>
