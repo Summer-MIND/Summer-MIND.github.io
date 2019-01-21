@@ -1,26 +1,31 @@
+
+
 <!-- Wrapper -->
 <div id="wrapper">
-
 	<header id="header">
-		<div class="inner">
-
-			<!-- Logo -->
-			<a href="{{ site.baseurl }}" class="logo">
-					<img src="{{ site.siteurl }}/images/Logos/{{ site.logo-image-url }}" alt="" height=100>
-					<span class="title">{{ site.title }}</span>
-			</a>
-
-			<!-- Nav -->
-			<nav>
-				<ul>
-					<li><a href="#menu">Menu</a></li>
-				</ul>
-			</nav>
-
-		</div>
+			<div class="navbar-fixed">
+				<nav>
+					<div class="nav-wrapper">
+						<!-- <img src="{{ site.baseurl }}/images/Logos/{{site.logo-image-url}}" alt="" height=50> -->
+						<a href="{{ site.baseurl }}/index.html" class="brand-logo">MIND</a>
+						<ul class="right hide-on-med-and-down">
+							{% for page in site.pages %}
+								{% unless page.exclude %}
+									{% if page.title %}
+										{% if page.layout == "current" %}
+											<li><a href="{{ page.url | prepend: site.baseurl}}">{{ page.title }}</a></li>
+										{% endif %}
+									{% endif %}
+								{% endunless %}
+							{% endfor %}
+							<li><a href="{{ site.baseurl }}/previous_years.html">Previous Years</a></li>
+							<li><a href="{{ site.baseurl }}/conduct.html">Conduct</a></li>
+							<li><a href="{{ site.baseurl }}/apply.html">Apply</a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>
 	</header>
-
-	{% include menu.html %}
 
 	<!-- Main -->
 	<div id="main">

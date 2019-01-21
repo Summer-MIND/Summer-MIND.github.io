@@ -6,9 +6,14 @@
 		{% for page in site.pages %}
 			{% unless page.exclude %}
 				{% if page.title %}
-					<li><a href="{{ page.url | prepend: site.baseurl}}">{{ page.title }}</a></li>
+					{% if page.layout == "current" %}
+						<li><a href="{{ page.url | prepend: site.baseurl}}">{{ page.title }}</a></li>
+					{% endif %}
 				{% endif %}
 			{% endunless %}
 		{% endfor %}
+		<li><a href="{{ site.baseurl }}/previous_years.html">Previous Years</a></li>
+		<li><a href="{{ site.baseurl }}/conduct.html">Conduct</a></li>
+		<li><a href="{{ site.baseurl }}/apply.html">Apply</a></li>
 	</ul>
 </nav>
