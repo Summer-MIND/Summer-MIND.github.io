@@ -3,6 +3,16 @@
 <!-- Wrapper -->
 <div id="wrapper">
 	<header id="header">
+
+		<!-- Dropdown Structure -->
+		<ul id="dropdown1" class="dropdown-content">
+			{% for post in site.posts  %}
+				<li><a href="{{ post.url | prepend:site.baseurl | prepend:site.url }}">{{ post.title }}</a></li>
+			{% endfor %}
+		</ul>
+
+		<!-- Navbar -->
+
 			<div class="navbar-fixed">
 				<nav>
 					<div class="nav-wrapper">
@@ -18,7 +28,7 @@
 									{% endif %}
 								{% endunless %}
 							{% endfor %}
-							<li><a href="{{ site.baseurl }}/previous_years.html">Previous Years</a></li>
+							<li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Previous Years<i class="material-icons right">arrow_drop_down</i></a></li>
 							<li><a href="{{ site.baseurl }}/conduct.html">Conduct</a></li>
 							<li><a href="{{ site.baseurl }}/apply.html">Apply</a></li>
 						</ul>
