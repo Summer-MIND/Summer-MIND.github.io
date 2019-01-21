@@ -5,7 +5,7 @@ image: Dartmouth/bakerberry_banner.jpg
 description: How to apply to MIND.
 ---
 
-## Application Information
+# Application Information
 
 
 ### Who can apply?

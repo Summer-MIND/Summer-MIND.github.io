@@ -4,7 +4,7 @@ title: Conduct
 description: MIND code of conduct.
 ---
 
-## Code of Conduct
+# Code of Conduct
 The MIND Summer School is dedicated to providing a welcoming, safe, and harassment-free conference experience for people of every gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age, religion, socioeconomic status, and/or country of origin.  We encourage all attendees and participants to help us create a space in which everyone feels comfortable participating.  If you would like the organizers to be aware of any issues that arise during the conference, including any personal needs that may require adjusting how we run things or how you participate, we encourage you to reach out to us privately.  We have also provided an [anonymous reporting](https://mindsummerschool.wufoo.com/forms/rtef6ys0cgodwi) mechanism for you to provide input and feedback.
 
 Harassment includes, but is not limited to:
