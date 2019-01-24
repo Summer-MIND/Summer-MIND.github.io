@@ -61,18 +61,19 @@
       {% for tutorial in site.data.previous %}
         {% if tutorial.Year contains page.year %}
           <div class="col s12 m4">
-            <div class="card medium">
+            <div class="card small">
               <div class="card-image">
                 <img src="{{site.url}}/images/tutorials/{{tutorial.Image}}">
               </div>
               <div class="card-content  grey lighten-1">
                 {% if tutorial.Title %}
-                  <span class="card-title center-align">{{ tutorial.Title }}</span>
+                  <span class="tutorial-title">{{ tutorial.Title }}</span>
                 {% endif %}
                 {% if tutorial.Presenter %}
                   <h4 class="tutorial-author">by: <a href = "{{ tutorial.PresenterWebsite }}" class="tutorial-link">{{ tutorial.Presenter }}</a></h4>
                 {% endif %}
-                <div class="icon-container">
+                <div class="row">
+                <!-- <div class="icon-container"> -->
                     {% if tutorial.Video %}
                         <div><a href="{{ tutorial.Video }}" class="icon"><span class="icon-play2"></span></a></div>
                     {% endif %}
