@@ -9,10 +9,17 @@
 
   <h1>{{ page.title }}</h1>
 
-  <!-- {% if previous.group-image %}
-    <div class="image main"><img src="{{ site.baseurl }}/images/{previous.year}/{{ previous.group-image }}" alt="" /></div>
-    <!-- <div class="image main"><img src="{{ site.baseurl }}/images/{{ previous.year }}/{{ previous.group-image }}" alt="" /></div> -->
-  {% endif %} -->
+  {% if page.group-image %}
+    <div class="image main"><img src="{{ site.baseurl }}/images/{{ page.year }}/{{ page.group-image }}" alt="" /></div>
+    <h2>Participants</h2>
+    <p>
+      {% for person in site.data.participants %}
+        {% if person.Year contains page.year %}
+          {{ person.Name }},
+        {% endif %}
+          {% endfor %}
+    </p>
+  {% endif %}
 
 
   {{ content }}
