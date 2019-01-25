@@ -2,17 +2,26 @@
 
 #faculty {
 			.container {
+				margin: 0 auto;
 					width: 90%;
 
 			}
 			.card {
 					// height: 100%;
+					// width: 500px;
 					// object-fit: contain;
 			}
 			.card-image {
 					// height: 400px;
 			    overflow: hidden;
 					padding: 10px;
+					margin-bottom: 0px;
+			}
+			.card-content {
+					padding-top: 0px;
+					padding-bottom: 10px;
+					// object-fit: contain;
+					// overflow: scroll;
 			}
 			.card-title {
 					margin: 0px;
@@ -32,15 +41,13 @@
 					// padding: 10px;
 			    height: 300px;
 			    object-fit: contain;
+					margin-bottom: 0px;
 			}
 }
 
 
 
-.card-content {
-		// object-fit: contain;
-		// overflow: scroll;
-}
+
 
 
 .card img.materialized.active {
