@@ -56,8 +56,8 @@
 <!-- Using Cards -->
 <section>
   <h2>Tutorials</h2>
-  <div class="container" id="tutorial">
-    <div class="row">
+  <!-- <div class="container" id="tutorial"> -->
+    <div class="row" id="tutorial">
       {% for tutorial in site.data.previous %}
         {% if tutorial.Year contains page.year %}
           <div class="col s12 m6 l4">
@@ -67,13 +67,13 @@
               </div>
               <div class="card-content  grey lighten-1">
                 {% if tutorial.Title %}
-                  <span class="tutorial-title">{{ tutorial.Title }}</span>
+                  <span class="card-title center">{{ tutorial.Title }}</span>
                 {% endif %}
                 {% if tutorial.Presenter %}
-                  <h4 class="tutorial-author">by: <a href = "{{ tutorial.PresenterWebsite }}" class="tutorial-link">{{ tutorial.Presenter }}</a></h4>
+                  <h4 class="card-author center">by: <a href = "{{ tutorial.PresenterWebsite }}" class="tutorial-link">{{ tutorial.Presenter }}</a></h4>
                 {% endif %}
-                <div class="row">
-                <!-- <div class="icon-container"> -->
+                <!-- <div class="row center"> -->
+                <div class="card-icon-container center">
                     {% if tutorial.Video %}
                         <div><a href="{{ tutorial.Video }}" class="icon"><span class="icon-play2"></span></a></div>
                     {% endif %}
@@ -96,5 +96,5 @@
         {% endif %}
       {% endfor %}
     </div>
-  </div>
+  <!-- </div> -->
 </section>
