@@ -1,4 +1,4 @@
-<section>
+<!-- <section>
   <h2>Tutorials</h2>
   {% for tutorial in site.data.previous %}
     {% if tutorial.Year contains page.year %}
@@ -51,17 +51,17 @@
       </div>
     {% endif %}
   {% endfor %}
-</section>
+</section> -->
 
 <!-- Using Cards -->
 <section>
   <h2>Tutorials</h2>
-  <div class="container">
+  <div class="container" id="tutorial">
     <div class="row">
       {% for tutorial in site.data.previous %}
         {% if tutorial.Year contains page.year %}
-          <div class="col s12 m4">
-            <div class="card small">
+          <div class="col s12 m6 l4">
+            <div class="card">
               <div class="card-image">
                 <img src="{{site.url}}/images/tutorials/{{tutorial.Image}}">
               </div>
