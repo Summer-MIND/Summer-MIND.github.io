@@ -1,7 +1,7 @@
 /* Tutorials */
 
 $border-color:  #585858;
-$text-box-color: #B8B8B8;
+$text-box-color: #fff;
 $accent-color: #ff0000;
 
 
@@ -113,24 +113,27 @@ img.tutorial-image {
 			}
 			.card {
 					height: 100%;
+					min-height: 400px;
 					// object-fit: contain;
 			}
 			.card-image {
 					// height: 400px;
+					padding-top: auto;
 			    overflow: hidden;
 					padding: 10px;
 			}
 			.card-content {
 					padding-top: 10px;
-					padding-bottom: 10px;
-					// object-fit: contain;
+					padding-bottom: auto;
+					object-fit: contain;
+					// background-color: white!;
 					// overflow: scroll;
 			}
 			.card-title {
 					margin-top: 0px;
 					margin-bottom: 5px;
-					font-size: 16pt;
-					line-height: 16pt;
+					font-size: 18pt;
+					line-height: 18pt;
 					font-weight: 510;
 					text-transform: uppercase;
 					object-fit: contain;

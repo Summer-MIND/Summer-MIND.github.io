@@ -15,7 +15,7 @@
     <p>
       {% for person in site.data.participants %}
         {% if person.Year contains page.year %}
-          {{ person.Name }},
+          {{ person.Name }}{% unless forloop.last %},{% endunless %}
         {% endif %}
           {% endfor %}
     </p>

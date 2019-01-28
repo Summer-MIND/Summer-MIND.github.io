@@ -45,7 +45,7 @@ This year’s summer program will be 9 days, with each day organized around thre
         <div class="col s12 m6 l3">
           <div class="card" id="faculty">
             <div id="faculty" class="card-image">
-              <img src="{{site.url}}/images/Faculty/{{organizer.Picture}}">
+              <a href="{{organizer.Website}}"><img src="{{site.url}}/images/Faculty/{{organizer.Picture}}"></a>
             </div>
             <div class="card-content">
               <span class="card-title center"><a href="{{organizer.Website}}">{{organizer.First}} {{organizer.Last}}</a></span>

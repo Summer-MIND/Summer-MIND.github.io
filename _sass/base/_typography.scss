@@ -77,8 +77,8 @@
 		font-weight: _font(weight-bold);
 		line-height: 1.5;
 		margin: 0 0 (_size(element-margin) * 1) 0;
-		text-transform: uppercase;
-		letter-spacing: _font(letter-spacing);
+		text-transform: capitalize;
+		letter-spacing: _font(letter-spacing-alt);
 
 		a {
 			color: inherit;
@@ -86,7 +86,7 @@
 	}
 
 	h2 {
-		font-size: 1.1em;
+		font-size: 1.8em;
 	}
 
 	h3 {
