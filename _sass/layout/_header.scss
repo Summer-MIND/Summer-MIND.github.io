@@ -7,9 +7,9 @@
 				width: 100%;
 				height: 100%;
 				// border: 1px solid black;
-				padding-top: 10px;
-				padding-left: 10px;
-				padding-bottom: 0px;
+				padding-top: auto;
+				padding-left: 15px;
+				padding-bottom: auto;
 				// position: absolute;
 				color: #fff;
 				display: inline-flex;
@@ -18,9 +18,11 @@
 				overflow: hidden;
 
 				> .img-align {
-				  vertical-align: bottom;
-					height: 40px;
+				  // vertical-align: bottom;
+					height: 50px;
 					display: inline-flex;
+					padding-top: 15px;
+					padding-right: 10px;
 				}
 
 				#header-img {
