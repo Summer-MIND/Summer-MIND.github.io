@@ -13,11 +13,10 @@
     <div class="image main"><img src="{{ site.baseurl }}/images/{{ page.year }}/{{ page.group-image }}" alt="" /></div>
     <h2>Participants</h2>
     <p>
-      {% for person in site.data.participants %}
-        {% if person.Year contains page.year %}
-          {{ person.Name }}{% unless forloop.last %},{% endunless %}
-        {% endif %}
-          {% endfor %}
+      {% assign participants = site.data.participants | where:'Year', page.year %}
+      {% for person in participants %}
+        {{ person.Name }}{% unless forloop.last %},{% endunless %}
+      {% endfor %}
     </p>
   {% endif %}
 
