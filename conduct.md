@@ -2,6 +2,7 @@
 layout: page
 title: Conduct
 description: MIND code of conduct.
+custom_css: conduct
 ---
 
 # Code of Conduct
@@ -12,8 +13,7 @@ Harassment includes, but is not limited to:
 * Verbal comments related to gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age, religion, socioeconomic status, and/or country of origin.
 * Sexual images in public spaces
 * Deliberate intimidation, stalking, or following
-* Harassing photography or recording
-* Sustained disruption of talks or other events
+* Harassing photography or recording- Sustained disruption of talks or other events
 * Inappropriate physical contact
 * Unwelcome sexual attention
 * Advocating for, or encouraging, any of the above behavior
@@ -25,6 +25,7 @@ Event organizers may take action to redress anything designed to, or with the cl
 Harassment and other code of conduct violations reduce the value of the MIND Summer School for everyone. If someone makes you or anyone else feel unsafe or unwelcome, please report it as soon as possible to one of the faculty. You can make a report either personally or anonymously. Anonymous reports to the organizers can be made [here](https://mindsummerschool.wufoo.com/forms/rtef6ys0cgodwi/).
 
 ### Need Help
+
 * **MIND Organizers:** mindsummerschool@gmail.com
 * **Hanover Inn:** (603) 643-4300
 * **Dartmouth College campus security:** (603) 646-4000 (24 hours); 911 or 6-3333 for emergencies
