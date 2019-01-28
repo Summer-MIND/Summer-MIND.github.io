@@ -30,46 +30,46 @@ div.tutorial-image {
 			}
 
 div.tutorial-text {
-		display: block;
-		padding: 10px;
-		// max-height: 400px;
-		background-color: $text-box-color;
-		border-bottom-left-radius: 20px;
-		border-bottom-right-radius: 20px;
-		vertical-align: bottom;
-		position: relative;
-	  // bottom: 0;
-	  // left: 0;
-	}
+				display: block;
+				padding: 10px;
+				// max-height: 400px;
+				background-color: $text-box-color;
+				border-bottom-left-radius: 20px;
+				border-bottom-right-radius: 20px;
+				vertical-align: bottom;
+				position: relative;
+			  // bottom: 0;
+			  // left: 0;
+			}
 
 img.tutorial-image {
-	  display: block;
-	  margin-left: auto;
-	  margin-right: auto;
+			  display: block;
+			  margin-left: auto;
+			  margin-right: auto;
 			}
 
 .tutorial-title {
-		text-align: center;
-		text-decoration: none;
-		text-transform: uppercase;
-		word-spacing: 2px;
-		letter-spacing: 1px;
-		line-height: 1;
-		font-size: 24px;
-		font-weight: 600;
-		margin: 5px;
-	}
+				text-align: center;
+				text-decoration: none;
+				text-transform: uppercase;
+				word-spacing: 2px;
+				letter-spacing: 1px;
+				line-height: 1;
+				font-size: 24px;
+				font-weight: 600;
+				margin: 5px;
+			}
 
 .tutorial-author {
-		text-align: center;
-		text-decoration: none;
-		text-transform: capitalize;
-		word-spacing: 2px;
-		letter-spacing: 1px;
-		line-height: 1;
-		font-size: 16px;
-		font-weight: 300;
-	}
+				text-align: center;
+				text-decoration: none;
+				text-transform: capitalize;
+				word-spacing: 2px;
+				letter-spacing: 1px;
+				line-height: 1;
+				font-size: 16px;
+				font-weight: 300;
+			}
 
 .icon-container {
 		text-align: center;
@@ -148,7 +148,7 @@ img.tutorial-image {
 					font-size: 14pt;
 					font-weight: 300;
 					margin-bottom: 5px;
-				}
+			}
 			.card-affiliation {
 					font-size: 14pt;
 					line-height: 14pt;
@@ -188,39 +188,4 @@ img.tutorial-image {
 								margin-bottom: 0px;
 							}
 				}
-			// .card-icon-container > img {
-			// 			width: 30px; /* Declare your value. Can be in relative units. */
-			// 			display: inline-block;
-			// 			vertical-align: bottom;
-			// 			margin-top: 5px;
-			// 			margin-left: 10px;
-			// 			margin-right: 10px;
-			// 			margin-bottom: 0px;
-			// 		}
-			// .card-icon-container:after {
-			// 		  content: "";
-			// 		  width: 100%;
-			// 		  display: inline-block;
-			// 			}
-}
-
-
-#conduct {
-			a:link {
-						text-decoration: underline;
-						/* color: #f2849e; */
-			}
-
-			ul {
-				list-style: none; /* Remove default bullets */
-			}
-
-			ul li::before {
-				content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
-				color: #f2849e; /* Change the color */
-				font-weight: bold; /* If you want it to be bold */
-				display: inline-block; /* Needed to add space between the bullet and the text */
-				width: 1em; /* Also needed for space (tweak if needed) */
-				margin-left: -1em; /* Also needed for space (tweak if needed) */
-			}
 }

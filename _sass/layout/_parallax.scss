@@ -1,0 +1,47 @@
+
+
+/* Parallax-image */
+
+#parallax {
+		$gutter: _size(gutter);
+
+		@include padding(5em, 0, (0, 0, 3em, 0));
+		background-color: _palette(bg-alt);
+
+		> .inner {
+			@include vendor('display', 'flex');
+			@include vendor('flex-wrap', 'wrap');
+			@include vendor('flex-direction', 'row');
+
+			> * > :last-child {
+				margin-bottom: 0;
+			}
+
+			section:nth-child(1) {
+				width: calc(66% - #{$gutter});
+				margin-right: $gutter;
+			}
+
+			section:nth-child(2) {
+				width: calc(33% - #{$gutter});
+				margin-left: $gutter;
+			}
+		}
+
+		> .overlay {
+				height: 100%;
+				// display: inline;
+			  // width: 50%;
+		}
+
+		> .splash-text {
+			  /*font-size: 80px;*/
+			  // font-family: 'Lato', sans-serif;
+			  letter-spacing: .11em;
+				font-weight: 200;
+			  font-size: 1.25em;
+			  text-rendering: optimizeLegibility;
+				color: #f000;
+		}
+
+	}

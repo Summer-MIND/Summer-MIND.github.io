@@ -7,27 +7,18 @@
 
   {% include header.html %}
 
+  {% include startcontent.html %}
+
   <h1>{{ page.title }}</h1>
 
-  <!-- image gallery -->
-  <div class="container">
-    <div class="slider">
-      <ul class="slides">
-        {% for image in site.static_files %}
-          {% if image.path contains page.year %}
-            {% unless image.path contains page.group-image %}
-              <li><img src="{{ site.url }}/{{ image.path }}"></li>
-            {% endunless %}
-          {% endif %}
-        {% endfor %}
-      </ul>
-    </div>
-  </div>
+  {% include gallery.html %}
+
   {{ content }}
 
   <!-- Participants -->
     {% if page.group-image %}
       <h2>Participants</h2>
+
       <div class="image main">
         <img class="materialboxed" src="{{ site.baseurl }}/images/{{ page.year }}/{{ page.group-image }}" alt="" />
       </div>

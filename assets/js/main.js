@@ -175,4 +175,9 @@
     });
 	});
 
+	// parallax
+	$(document).ready(function(){
+    $('.parallax').parallax();
+  });
+
 })(jQuery);

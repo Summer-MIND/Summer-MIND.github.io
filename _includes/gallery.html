@@ -1,0 +1,14 @@
+<!-- image gallery -->
+<div class="container">
+  <div class="slider">
+    <ul class="slides">
+      {% for image in site.static_files %}
+        {% if image.path contains page.image-folder %}
+          {% unless image.path contains page.group-image %}
+            <li><img src="{{ site.url }}/{{ image.path }}"></li>
+          {% endunless %}
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+</div>
