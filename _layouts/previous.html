@@ -9,20 +9,35 @@
 
   <h1>{{ page.title }}</h1>
 
-  {% if page.group-image %}
-    <div class="image main"><img src="{{ site.baseurl }}/images/{{ page.year }}/{{ page.group-image }}" alt="" /></div>
-    <h2>Participants</h2>
-    <p>
-      {% assign participants = site.data.participants | where:'Year', page.year %}
-      {% for person in participants %}
-        {{ person.Name }}{% unless forloop.last %},{% endunless %}
-      {% endfor %}
-    </p>
-  {% endif %}
-
-  <div class="divider"></div>
-
+  <!-- image gallery -->
+  <div class="container">
+    <div class="slider">
+      <ul class="slides">
+        {% for image in site.static_files %}
+          {% if image.path contains page.year %}
+            {% unless image.path contains page.group-image %}
+              <li><img src="{{ site.url }}/{{ image.path }}"></li>
+            {% endunless %}
+          {% endif %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
   {{ content }}
+
+  <!-- Participants -->
+    {% if page.group-image %}
+      <h2>Participants</h2>
+      <div class="image main">
+        <img class="materialboxed" src="{{ site.baseurl }}/images/{{ page.year }}/{{ page.group-image }}" alt="" />
+      </div>
+      <p>
+        {% assign participants = site.data.participants | where:'Year', page.year %}
+        {% for person in participants %}
+          {{ person.Name }}{% unless forloop.last %},{% endunless %}
+        {% endfor %}
+      </p>
+    {% endif %}
 
   <div class="divider"></div>
 

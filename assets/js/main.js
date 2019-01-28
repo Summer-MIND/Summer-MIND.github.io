@@ -103,74 +103,6 @@
 				);
 			});
 
-		// // Menu.
-		// 	var $menu = $('#menu');
-		//
-		// 	$menu.wrapInner('<div class="inner"></div>');
-		//
-		// 	$menu._locked = false;
-		//
-		// 	$menu._lock = function() {
-		//
-		// 		if ($menu._locked)
-		// 			return false;
-		//
-		// 		$menu._locked = true;
-		//
-		// 		window.setTimeout(function() {
-		// 			$menu._locked = false;
-		// 		}, 350);
-		//
-		// 		return true;
-		//
-		// 	};
-		//
-		// 	$menu._show = function() {
-		//
-		// 		if ($menu._lock())
-		// 			$body.addClass('is-menu-visible');
-		//
-		// 	};
-		//
-		// 	$menu._hide = function() {
-		//
-		// 		if ($menu._lock())
-		// 			$body.removeClass('is-menu-visible');
-		//
-		// 	};
-		//
-		// 	$menu._toggle = function() {
-		//
-		// 		if ($menu._lock())
-		// 			$body.toggleClass('is-menu-visible');
-		//
-		// 	};
-		//
-		// 	$menu
-		// 		.appendTo($body)
-		// 		.on('click', function(event) {
-		// 			event.stopPropagation();
-		// 		})
-		// 		.on('click', 'a', function(event) {
-		//
-		// 			var href = $(this).attr('href');
-		//
-		// 			event.preventDefault();
-		// 			event.stopPropagation();
-		//
-		// 			// Hide.
-		// 				$menu._hide();
-		//
-		// 			// Redirect.
-		// 				if (href == '#menu')
-		// 					return;
-		//
-		// 				window.setTimeout(function() {
-		// 					window.location.href = href;
-		// 				}, 350);
-		//
-		// 		})
-		// 		.append('<a class="close" href="#menu">Close</a>');
 
 			$body
 				.on('click', 'a[href="#menu"]', function(event) {
@@ -196,6 +128,7 @@
 
 				});
 
+		// dropdown
 		$(document).ready(function(){
 					$('.modal').modal();
 					$('.dropdown-trigger').dropdown({
@@ -209,6 +142,37 @@
 					});
 		});
 
+		// sidenav
+		$(document).ready(function(){
+	    $('.sidenav').sidenav();
+	  });
+
+		// collapsible
+		$(document).ready(function(){
+
+		    $('.collapsible').collapsible();
+
+		  });
+
+		// lightbox
+		$(document).ready(function(){
+	    $('.materialboxed').materialbox();
+	  });
+
+		// slider
+		$(document).ready(function(){
+			$('.slider').slider({
+							indicators: true,
+							full_width: false,
+							height: 500,
+							width: 50,
+					});
+		});
+
+		// carousel
+		$(document).ready(function(){
+      $('.carousel').carousel();
+    });
 	});
 
 })(jQuery);

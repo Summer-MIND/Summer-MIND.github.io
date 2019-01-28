@@ -13,13 +13,46 @@
 			{% endfor %}
 		</ul>
 
-		<!-- Navbar -->
+		<!-- mobile sidebar  -->
+		<ul class="sidenav" id="mobile-nav">
+			<li><a href="{{ site.baseurl }}/index.html">About</a></li>
+			{% for page in site.pages %}
+				{% unless page.exclude %}
+					{% if page.title %}
+						{% if page.layout == "current" %}
+							<li><a href="{{ page.url | prepend: site.baseurl}}">{{ page.title }}</a></li>
+						{% endif %}
+					{% endif %}
+				{% endunless %}
+			{% endfor %}
+			<li class="no-padding">
+        <!-- <ul class="collapsible collapsible-accordion"> -->
+				<ul class="collapsible" data-collapsible="accordion">
+					<li>
+						<div class= "collapsible-header"><i class="material-icons">arrow_drop_down</i>Previous Years</div>
+						<div class="collapsible-body">
+							<ul>
+								{% for post in site.posts  %}
+									{% if post.layout == "previous" %}
+										<li><a href="{{ post.url | prepend:site.baseurl | prepend:site.url }}">{{ post.title }}</a></li>
+									{% endif %}
+								{% endfor %}
+							</ul>
+						</div>
+          </li>
+        </ul>
+      </li>
+			<li><a href="{{ site.baseurl }}/conduct.html">Conduct</a></li>
+			<li><a class="waves-effect waves-light btn" href="{{ site.baseurl }}/apply.html">Apply</a></li>
+	  </ul>
 
+		<!-- Main Navbar -->
 			<div class="navbar-fixed">
 				<nav class="grey darken-2">
 					<div class="nav-wrapper ">
 						<!-- <img src="{{ site.baseurl }}/images/Logos/{{site.logo-image-url}}" alt="" height=50> -->
-						<a href="{{ site.baseurl }}/index.html" class="brand-logo left" style="padding-left: 10px;">MIND</a>
+						<a href="{{ site.baseurl }}/index.html" class="brand-logo" style="padding-left: 10px;"><img src="{{ site.baseurl }}/images/Logos/{{ site.logo-image-url }}">MIND</a>
+						<a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 						<ul class="right hide-on-med-and-down">
 							<li><a href="{{ site.baseurl }}/index.html">About</a></li>
 							{% for page in site.pages %}
