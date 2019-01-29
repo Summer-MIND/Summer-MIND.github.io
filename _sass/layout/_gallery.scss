@@ -11,10 +11,12 @@
 		  position: relative;
 		  height: 200px;
 		  width: 50%;
+			background-color: white!important;
+
 		}
 
 		.slider .slides {
-		  background-color: #000;
+			background-color: white!important;
 		  margin: 0;
 		  height: 200px;
 		}
@@ -28,12 +30,14 @@
 		  width: 50%;
 		  height: inherit;
 		  overflow: visible;
+			background-color: white!important;
 		}
 
 		.slider .slides li img {
 		  height: auto;
-		  width: 60%;
+		  width: 80%;
 		  // background-size: cover;
 		  background-position: center;
+			background-color: white!important;
 		}
 }

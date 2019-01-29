@@ -36,13 +36,18 @@
 	}
 
 	.splash-text {
-		/*font-size: 80px;*/
-		// font-family: 'Lato', sans-serif;
-		letter-spacing: .005em;
-		font-weight: 550;
-		font-size: 2.5em;
-		text-rendering: optimizeLegibility;
-		color: white !important;
-		padding-top: auto;
-		padding-bottom: auto;
-	}
+				letter-spacing: .005em;
+				font-weight: 100;
+				// font-size: 2.5em;
+				text-rendering: optimizeLegibility;
+				color: white !important;
+				margin: 0;
+				padding: 0;
+				position: relative;
+				top: 200px;
+				// top: 20%;
+				text-align: center;
+				// padding-bottom: 5%;
+				// vertical-align: bottom;
+
+		}
