@@ -6,7 +6,7 @@
       {% for person in site.data.faculty %}
         {% if person.Year contains page.year %}
           <div class="col s12 m6 l4">
-            <div class="card" id="faculty">
+            <div class="card hoverable" id="faculty">
               <div class="card-image" id="faculty">
                 <a href="{{person.Website}}"><img src="{{site.url}}/images/Faculty/{{person.Picture}}"></a>
               </div>
