@@ -163,9 +163,8 @@
 		$(document).ready(function(){
 			$('.slider').slider({
 							indicators: true,
-							full_width: false,
-							height: 500,
-							width: 50,
+							full_width: true,
+
 					});
 		});
 
