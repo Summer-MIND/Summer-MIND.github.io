@@ -5,7 +5,7 @@
       {% for image in site.static_files %}
         {% if image.path contains page.image-folder %}
           {% unless image.path contains page.group-image %}
-            <li><img src="{{ site.url }}/{{ image.path }}"></li>
+            <li><img src="{{ site.url }}/images/{{ image.path }}"></li>
           {% endunless %}
         {% endif %}
       {% endfor %}
