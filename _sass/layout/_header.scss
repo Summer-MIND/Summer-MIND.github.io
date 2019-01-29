@@ -35,9 +35,20 @@
 						// left: 0px;
 				}
 	}
-}
-.waves-effect.waves-pepperment .waves-ripple {
- /* The alpha value allows the text and background color
- of the button to still show through. */
-	background-color: rgba(223, 248, 235, 0.65);
+	.btn {
+	 /* The alpha value allows the text and background color
+	 of the button to still show through. */
+						background-color: rgba(223, 248, 235, 1);
+						// color: #223843;
+						color: #565656;
+
+						// background-color: rgba(255, 66, 66, 0.99);
+	}
+
+	.waves-effect.waves-bright .waves-ripple {
+	 /* The alpha value allows the text and background color
+	 of the button to still show through. */
+					 	// background-color: rgba(223, 248, 235, 0.65);
+						background-color: rgba(255, 66, 66, 0.7);
+	}
 }
