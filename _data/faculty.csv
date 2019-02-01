@@ -23,7 +23,7 @@ ID,Year,First,Last,Institution,Website,Picture
 22,2018,Alex,Huth,University of Texas Austin,http://www.cs.utexas.edu/~huth/index.html,huth.png
 23,2018,Caleb,Kemere,Rice University,http://rnel.rice.edu,kemere.png
 24,2018,Jeremy,Manning,Dartmouth College,http://www.context-lab.com/,manning.png
-25,2018,Ida,Momennejad,Princeton University,https://www.momen-nejad.org/,momennejad.jpg
+25,2018,Ida,Momennejad,Columbia University,https://www.momen-nejad.org/,momennejad.jpg
 26,2018,Emily,Mower-Provost,University of Michigan,http://web.eecs.umich.edu/~emilykmp/chai/,mowerprovost.png
 27,2018,Carolyn,Parkinson,University of California Los Angeles,http://csnlab.org,parkinson.jpg
 28,2018,Alireza,Soltani,Dartmouth College,http://sites.dartmouth.edu/ccnl,soltani.jpeg
@@ -31,9 +31,10 @@ ID,Year,First,Last,Institution,Website,Picture
 30,2018,Matthijs,van der Meer,Dartmouth College,http://www.vandermeerlab.org/,mvdm.jpg
 31,2018,Thalia,Wheatley,Dartmouth College,http://www.wheatlab.com/,wheatley.jpg
 32,2019,Luke,Chang,Dartmouth College,http://cosanlab.com,chang.jpg
-33,2019,Jeremy,Manning,Dartmouth College,http://www.context-lab.com/,manning.png
-34,2019,Ida,Momennejad,Princeton University,https://www.momen-nejad.org/,momennejad.jpg
-35,2019,Daniela,Schiller,Mount Sinai School of Medicine,http://labs.neuroscience.mssm.edu/project/schiller-lab/,schiller.jpg
-36,2019,Mark,Thornton,Princeton University,http://markallenthornton.com/,thornton.jpg
-37,2019,Matthijs,van der Meer,Dartmouth College,http://www.vandermeerlab.org/,mvdm.jpg
-38,2019,Thalia,Wheatley,Dartmouth College,http://www.wheatlab.com/,wheatley.jpg
+33,2018,Yaroslav,Halchenko,Dartmouth College,http://centerforopenneuroscience.org/,halchenko.jpg
+34,2019,Jeremy,Manning,Dartmouth College,http://www.context-lab.com/,manning.png
+35,2019,Ida,Momennejad,Columbia University,https://www.momen-nejad.org/,momennejad.jpg
+36,2019,Daniela,Schiller,Mount Sinai School of Medicine,http://labs.neuroscience.mssm.edu/project/schiller-lab/,schiller.jpg
+37,2019,Mark,Thornton,Princeton University,http://markallenthornton.com/,thornton.jpg
+38,2019,Matthijs,van der Meer,Dartmouth College,http://www.vandermeerlab.org/,mvdm.jpg
+39,2019,Thalia,Wheatley,Dartmouth College,http://www.wheatlab.com/,wheatley.jpg
