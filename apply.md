@@ -27,7 +27,7 @@ Please also arrange to have a single letter of recommendation sent to [mindsumme
 
 ### Important Dates
 
-* **Sunday, April 15th, 2019:** applications due by 11:59 PM EDT
+* **Monday, April 15th, 2019:** applications due by 11:59 PM EDT
 * **Sunday, August 7:** arrive in Hanover
 * **Monday, August 8:**  first of summer school, welcome reception
 * **Tuesday, August 16:**  last day of summer school, closing reception
