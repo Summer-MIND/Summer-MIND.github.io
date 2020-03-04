@@ -44,9 +44,23 @@ ID,Year,First,Last,Institution,Website,Picture
 43,2019,A. David,Redish,University of Minnesota,http://redishlab.neuroscience.umn.edu/,redish.jpg
 44,2019,Caroline,Robertson,Dartmouth College,https://www.robertsonlab.com/,robertson.jpg
 45,2019,Daniela,Schiller,Mount Sinai School of Medicine,http://labs.neuroscience.mssm.edu/project/schiller-lab/,schiller.jpg
-46,2019,Kim,Stachenfeld,DeepMind, https://twitter.com/neuro_kim?lang=en,stachenfeld.jpg
+46,2019,Kim,Stachenfeld,DeepMind,https://neurokim.com/,stachenfeld.jpg
 47,2019,Jeffrey,Taube,Dartmouth College,https://sites.dartmouth.edu/taubelab/,taube.jpg
 48,2019,Mark,Thornton,Princeton University,http://markallenthornton.com/,thornton.jpg
 49,2019,Matthijs,van der Meer,Dartmouth College,http://www.vandermeerlab.org/,mvdm.jpg
 50,2019,Thalia,Wheatley,Dartmouth College,http://www.wheatlab.com/,wheatley.jpg
 51,2019,Robert,Wilson,University of Arizona,https://psychology.arizona.edu/users/robert-wilson,wilson.jpg
+52,2020,Bahador,Bahrami,University College London,https://www.ucl.ac.uk/icn/research/research-groups/crowd-cognition,bahrami.jpg
+53,2020,Luke,Chang,Dartmouth College,http://cosanlab.com,chang.jpg
+54,2020,Emily,Falk,University of Pennsylvania,https://cn.asc.upenn.edu/,falk.jpg
+54,2020,Emily,Finn,Dartmouth College,https://esfinn.github.io/,finn.jpg
+55,2020,Yaroslav,Halchenko,Dartmouth College,http://centerforopenneuroscience.org/,halchenko.jpg
+56,2020,James,Haxby,Dartmouth College,http://haxbylab.dartmouth.edu/,haxby.jpg
+57,2020,Jeremy,Manning,Dartmouth College,http://www.context-lab.com/,manning.png
+58,2020,Meghan,Meyer,Dartmouth College,http://www.dartmouth-socialneurolab.com/,meyer.jpg
+59,2020,Carolyn,Parkinson,University of California Los Angeles,http://csnlab.org,parkinson.jpg
+60,2020,Arjen,Stolk,Dartmouth College,http://www.arjenstolk.nl/,stolk.jpg
+61,2020,Mark,Thornton,Princeton University,http://markallenthornton.com/,thornton.jpg
+62,2020,Matthijs,van der Meer,Dartmouth College,http://www.vandermeerlab.org/,mvdm.jpg
+63,2020,Tor,Wager,Dartmouth College,https://sites.dartmouth.edu/canlab/,wager.jpg
+64,2020,Thalia,Wheatley,Dartmouth College,http://www.wheatlab.com/,wheatley.jpg
