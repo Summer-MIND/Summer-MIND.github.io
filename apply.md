@@ -7,6 +7,8 @@ description: How to apply to MIND.
 
 # Application Information
 
+### COVID-19
+We are currently proceeding with the summer school as planned, but are closely monitoring the quickly evolving situation with the covid-19 pandemic. We will make a decision early-mid summer if we will be cancelling summer school. It is too difficult to forecast how things will unfold at this time. We encourage people to still apply and will keep the website up to date and will notify all applicants if anything changes.
 
 ### Who can apply?
 We welcome applications from graduate students, postdocs, and junior (untenured) faculty.
