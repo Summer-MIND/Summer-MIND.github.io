@@ -17,7 +17,7 @@ We welcome applications from graduate students, postdocs, and junior (untenured)
 There are no application or tuition fees. If your application is accepted and you decide to attend, you will be responsible for your own travel to and from Hanover, NH. We will take care of everything else, including lodging and meals.
 
 ### Application Procedure
-Apply using this <font color="red"><a href=https://forms.gle/aBEAuJ8s2frXAVXG9>web form</a></font> by *April 30th, 2020*, 11:59 PM EDT (extended 2 weeks to help with unexpected delays related to covid19).
+Apply using this <a href=https://forms.gle/aBEAuJ8s2frXAVXG9><font color="red">web form</font></a> by *April 30th, 2020*, 11:59 PM EDT (extended 2 weeks to help with unexpected delays related to covid19).
 
 Your application should consist of a single PDF file comprising a:
 
