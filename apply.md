@@ -17,7 +17,7 @@ We welcome applications from graduate students, postdocs, and junior (untenured)
 There are no application or tuition fees. If your application is accepted and you decide to attend, you will be responsible for your own travel to and from Hanover, NH. We will take care of everything else, including lodging and meals.
 
 ### Application Procedure
-Apply using this <a href="https://forms.gle/aBEAuJ8s2frXAVXG9" style="color:#ff3300">web form</a> by *April 30th, 2020*, 11:59 PM EDT (extended 2 weeks to help with unexpected delays related to covid19).
+Apply using this <a href="https://forms.gle/aBEAuJ8s2frXAVXG9" style="color:#ff3300">web form</a> by *May 31st, 2023*, 11:59 PM EDT.
 
 Your application should consist of a single PDF file comprising a:
 
@@ -29,11 +29,11 @@ Please also arrange to have a single letter of recommendation sent to [mindsumme
 
 ### Important Dates
 
-* **Thursday, April 30th, 2020:** applications due by 11:59 PM EDT
-* **Wenesday, August 5:** arrive in Hanover
-* **Thursday, August 6:**  first of summer school
-* **Friday, August 14:**  last day of summer school, closing reception
-* **Saturday, August 15:** depart Hanover
+* **Wednesday, May 31st, 2023:** applications due by 11:59 PM EDT
+* **Sunday, August 6th:** arrive in Hanover
+* **Monday, August 7th:**  first of summer school
+* **Wednesday, August 16th:**  last day of summer school, closing reception
+* **Thursday, August 17th:** depart Hanover
 
 
 ## Note for International Applicants
