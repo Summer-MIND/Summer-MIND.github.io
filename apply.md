@@ -17,7 +17,7 @@ We welcome applications from graduate students, postdocs, and junior (untenured)
 There are no application or tuition fees. If your application is accepted and you decide to attend, you will be responsible for your own travel to and from Hanover, NH. We will take care of everything else, including lodging and meals.
 
 ### Application Procedure
-Apply using this <a href="https://forms.gle/aBEAuJ8s2frXAVXG9" style="color:#ff3300">web form</a> by *May 31st, 2023*, 11:59 PM EDT.
+Apply using this <a href="https://forms.gle/yq8b6wcjavFGVSov9" style="color:#ff3300">web form</a> by *May 31st, 2023*, 11:59 PM EDT. We will be sending out admissions decisions in mid-June, 2023.
 
 Your application should consist of a single PDF file comprising a:
 
