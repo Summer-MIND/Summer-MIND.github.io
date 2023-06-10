@@ -32,8 +32,8 @@ Please also arrange to have a single letter of recommendation sent to [mindsumme
 * **Wednesday, May 31st, 2023:** applications due by 11:59 PM EDT
 * **Sunday, August 6th:** arrive in Hanover
 * **Monday, August 7th:**  first of summer school
-* **Wednesday, August 15th:**  last day of summer school, closing reception
-* **Thursday, August 16th:** depart Hanover
+* **Tuesday, August 15th:**  last day of summer school, closing reception
+* **Wednesday, August 16th:** depart Hanover
 
 
 ## Note for International Applicants
