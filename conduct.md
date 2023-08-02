@@ -26,7 +26,7 @@ Participants asked to stop any harassing behavior are expected to comply immedia
 
 Event organizers may take action to redress anything designed to, or with the clear impact of, disrupting the event or making the environment hostile for any participants. We expect participants to follow these rules at all event venues and event-related social activities.
 
-Harassment and other code of conduct violations reduce the value of the MIND Summer School for everyone. If someone makes you or anyone else feel unsafe or unwelcome, please report it as soon as possible to one of the faculty. You can make a report either personally or anonymously. Anonymous reports to the organizers can be made <a href="https://mindsummerschool.wufoo.com/forms/rtef6ys0cgodwi/" style="text-decoration:underline;">here</a>.
+Harassment and other code of conduct violations reduce the value of the MIND Summer School for everyone. If someone makes you or anyone else feel unsafe or unwelcome, please report it as soon as possible to one of the faculty. You can make a report either personally or anonymously. Anonymous reports to the organizers can be made <a href="https://forms.gle/WTUkEUSiYVYW9FC48" style="text-decoration:underline;">here</a>.
 
 ### Need Help
 
