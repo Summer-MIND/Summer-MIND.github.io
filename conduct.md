@@ -8,7 +8,7 @@ image-folder: General
 
 
 # Code of Conduct
-The MIND Summer School is dedicated to providing a welcoming, safe, and harassment-free conference experience for people of every gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age, religion, socioeconomic status, and/or country of origin.  We encourage all attendees and participants to help us create a space in which everyone feels comfortable participating in all events including meals and social outings. If you would like the organizers to be aware of any issues that arise during the summer school, including any personal needs that may require adjusting how we run things or how you participate, we encourage you to reach out to us privately. We have also provided an <a href="https://mindsummerschool.wufoo.com/forms/rtef6ys0cgodwi" style="text-decoration:underline;">anonymous reporting</a> mechanism for you to provide input and feedback.
+The MIND Summer School is dedicated to providing a welcoming, safe, and harassment-free conference experience for people of every gender, gender identity and expression, sexual orientation, disability, physical appearance, body size, race, age, religion, socioeconomic status, and/or country of origin.  We encourage all attendees and participants to help us create a space in which everyone feels comfortable participating in all events including meals and social outings. If you would like the organizers to be aware of any issues that arise during the summer school, including any personal needs that may require adjusting how we run things or how you participate, we encourage you to reach out to us privately. We have also provided an <a href="https://forms.gle/WTUkEUSiYVYW9FC48" style="text-decoration:underline;">anonymous reporting</a> mechanism for you to provide input and feedback.
 
 Harassment includes, but is not limited to:
 
@@ -26,7 +26,7 @@ Participants asked to stop any harassing behavior are expected to comply immedia
 
 Event organizers may take action to redress anything designed to, or with the clear impact of, disrupting the event or making the environment hostile for any participants. We expect participants to follow these rules at all event venues and event-related social activities.
 
-Harassment and other code of conduct violations reduce the value of the MIND Summer School for everyone. If someone makes you or anyone else feel unsafe or unwelcome, please report it as soon as possible to one of the faculty. You can make a report either personally or anonymously. Anonymous reports to the organizers can be made <a href="https://mindsummerschool.wufoo.com/forms/rtef6ys0cgodwi/" style="text-decoration:underline;">here</a>.
+Harassment and other code of conduct violations reduce the value of the MIND Summer School for everyone. If someone makes you or anyone else feel unsafe or unwelcome, please report it as soon as possible to one of the faculty. You can make a report either personally or anonymously. Anonymous reports to the organizers can be made <a href="https://forms.gle/WTUkEUSiYVYW9FC48" style="text-decoration:underline;">here</a>.
 
 ### Need Help
 
